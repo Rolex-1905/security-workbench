@@ -1,17 +1,30 @@
 # Security Workbench
 
-A collection of my cybersecurity work, investigations, security engineering projects, research, labs, integrations, and technical write-ups.
+A collection of my cybersecurity work — investigations, security engineering projects, research, labs, integrations, and technical write-ups.
 
-This repository serves as a central archive of practical security work that I have completed, explored, or documented across different areas of cybersecurity.
+This repository is a structured archive of practical security work I've completed, explored, or documented across different areas of cybersecurity.
+
+---
+
+## Structure
+
+| Folder | What's in it |
+|---|---|
+| [`writeups/`](./writeups) | Case studies, investigations, and research write-ups, organized by category |
+| [`projects/`](./projects) | Tools and code I've built, each with its own README and source |
+
+---
+
+## Featured write-up
+
+**[The Device ID That Appeared Exactly Once](./writeups/dfir/lockbit-ransomware-investigation)** — a first-hand LockBit-branded ransomware DFIR investigation: KAPE triage of a 793-file forensic collection, event log and MFT analysis, and a custom-built parser for an AnyDesk connection log that pinpointed the intrusion.
 
 ---
 
 ## Areas of Work
 
 ### Security Operations
-
 Work related to security monitoring, detection, SIEM, alert analysis, and SOC operations.
-
 * SIEM deployments and integrations
 * Custom detection rules
 * Log analysis
@@ -20,10 +33,10 @@ Work related to security monitoring, detection, SIEM, alert analysis, and SOC op
 * SOC workflows
 * Security automation
 
+→ [`writeups/soc/`](./writeups/soc)
+
 ### Digital Forensics & Incident Response
-
 Practical work involving investigation, evidence analysis, incident response, and forensic techniques.
-
 * Digital forensic investigations
 * Windows forensics
 * Mobile forensics
@@ -32,10 +45,10 @@ Practical work involving investigation, evidence analysis, incident response, an
 * Investigation workflows
 * Forensic tooling
 
+→ [`writeups/dfir/`](./writeups/dfir)
+
 ### Malware Analysis
-
 Research and practical work related to understanding malicious software.
-
 * Static analysis
 * Dynamic analysis
 * Malware behavior analysis
@@ -43,10 +56,10 @@ Research and practical work related to understanding malicious software.
 * TTP identification
 * Malware research
 
+→ [`writeups/malware-analysis/`](./writeups/malware-analysis)
+
 ### Security Engineering
-
 Security tools, automation, integrations, and defensive engineering projects.
-
 * Security automation
 * Security tooling
 * API integrations
@@ -54,10 +67,10 @@ Security tools, automation, integrations, and defensive engineering projects.
 * CI/CD security
 * Defensive engineering
 
+→ [`projects/`](./projects)
+
 ### Security Infrastructure & Integrations
-
 Implementations and experiments involving security infrastructure and security tool integrations.
-
 * Wazuh integrations
 * SIEM integrations
 * Security tool integrations
@@ -65,10 +78,10 @@ Implementations and experiments involving security infrastructure and security t
 * Network security
 * Monitoring infrastructure
 
+→ [`projects/`](./projects)
+
 ### Security Labs
-
 Hands-on experiments and controlled security environments used to understand security concepts and technologies.
-
 * Kali Linux
 * Ubuntu
 * Web security labs
@@ -78,9 +91,7 @@ Hands-on experiments and controlled security environments used to understand sec
 * Detection and monitoring labs
 
 ### Threat Research
-
 Research and analysis related to threats, vulnerabilities, indicators, and adversary behavior.
-
 * Threat research
 * IOC analysis
 * TTP analysis
@@ -88,10 +99,10 @@ Research and analysis related to threats, vulnerabilities, indicators, and adver
 * Threat intelligence
 * Security case studies
 
+→ [`writeups/threat-research/`](./writeups/threat-research)
+
 ### Cybersecurity Governance & Law
-
 Research and technical analysis at the intersection of cybersecurity, incident response, privacy, compliance, and cyber law.
-
 * Cybersecurity compliance
 * Incident response requirements
 * Data protection
@@ -100,9 +111,7 @@ Research and technical analysis at the intersection of cybersecurity, incident r
 * Security governance
 
 ### Technical Write-ups
-
 Documentation of technical work, research, investigations, experiments, and lessons learned.
-
 * Technical write-ups
 * Research notes
 * Investigation reports
@@ -112,34 +121,15 @@ Documentation of technical work, research, investigations, experiments, and less
 
 ---
 
-## Projects
+## Documentation Conventions
 
-| Project       | Description                                                        |
-| ------------- | ------------------------------------------------------------------ |
-| AysalShield   | CLI-first security testing and DAST automation project             |
-| Aysal-Scan    | Tool for analyzing secrets, leaks, and potential exposure          |
-| Wazuh Work    | Security monitoring, integrations, detections, and SOC experiments |
-| DFIR Work     | Digital forensics and incident response investigations             |
-| Security Labs | Hands-on security experiments and controlled environments          |
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full structure and naming conventions. In short, every write-up or project folder may include:
 
-More projects and implementations will be added as they are completed.
-
----
-
-## Documentation
-
-Entries are documented according to the nature of the work.
-
-Documentation may include:
-
-* `README.md` — Overview and documentation
-* `notes/` — Research and investigation notes
-* `configs/` — Relevant configuration files
-* `scripts/` — Supporting scripts
-* `evidence/` — Sanitized evidence or references where appropriate
-* `screenshots/` — Visual documentation
-* `reports/` — Final reports or analysis
-* `references.md` — External references and sources
+* `README.md` — overview and documentation
+* `references.md` — external references and sources
+* `scripts/` — supporting scripts
+* `evidence/` — sanitized evidence, where appropriate
+* `screenshots/` — visual documentation
 
 Sensitive information, credentials, private client information, and confidential evidence are intentionally excluded.
 
