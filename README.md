@@ -78,7 +78,7 @@ Implementations and experiments involving security infrastructure and security t
 * Network security
 * Monitoring infrastructure
 
-→ [`projects/`](./projects)
+→ [`writeups/security-infrastructure/`](./writeups/security-infrastructure)
 
 ### Security Labs
 Hands-on experiments and controlled security environments used to understand security concepts and technologies.
