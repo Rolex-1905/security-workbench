@@ -126,28 +126,6 @@ More projects and implementations will be added as they are completed.
 
 ---
 
-## Repository Structure
-
-```text
-security-workbench/
-│
-├── SOC/
-├── Digital-Forensics/
-├── Incident-Response/
-├── Malware-Analysis/
-├── Security-Engineering/
-├── Integrations/
-├── Security-Labs/
-├── Threat-Research/
-├── Cybersecurity-Governance/
-├── Writeups/
-└── README.md
-```
-
-The structure is intentionally broad so that new projects, investigations, experiments, and research can be added without being restricted to a single cybersecurity domain.
-
----
-
 ## Documentation
 
 Entries are documented according to the nature of the work.
@@ -185,7 +163,7 @@ Sensitive information, credentials, personal data, proprietary information, and 
 
 ## Author
 
-**Neeraj Mudunuru**
+[**Neeraj Mudunuru**](https://www.linkedin.com/in/neeraj-mudunuru-79130a29a/)
 
 Cybersecurity | SOC | Digital Forensics | Incident Response | Security Engineering
 
